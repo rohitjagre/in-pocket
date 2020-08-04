@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "in-pocket"
+    }
+  },
+  "defaultProject": "in-pocket",
+  "cli": {
+    "analytics": false
+  }
 }

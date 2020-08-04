@@ -1,0 +1,33 @@
+@import "./../../theming/theme";
+
+.layout {
+  @include theming($themes) {
+    background-color: get("background");
+  }
+  .font {
+    @include theming($themes) {
+      color: get("text");
+    }
+  }
+  .para {
+    @include theming($themes) {
+      color: get("text");
+    }
+  }
+  .button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0rem;
+    @include theming($themes) {
+      background-color: get("primary");
+      color: get("button-color");
+    }
+  }
+  .background {
+    @include theming($themes) {
+      color: get("text");
+      background-color: get("primary");
+    }
+  }
+}

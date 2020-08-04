@@ -1,0 +1,49 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+// Base URL
+$base: "assets/";
+// Theme Map
+
+$themes: (
+  darkBlue: (
+    primary: #6fbff5,
+    secondary: #eb7c7c,
+    background: #272a2c,
+    text: #ffffff,
+    shadow: #ffffff50,
+    button-color: #ffffff,
+  ),
+  lightBlue: (
+    primary: #6fbff5,
+    secondary: #eb7c7c,
+    background: #ffffff,
+    text: #272a2c,
+    shadow: #272a2c50,
+    button-color: #ffffff,
+  ),
+  darkOrange: (
+    primary: #ef6e4e,
+    secondary: #8bfabf,
+    background: #272a2c,
+    text: #ffffff,
+    shadow: #ffffff50,
+    button-color: #ffffff,
+  ),
+  lightOrange: (
+    primary: #ef6e4e,
+    secondary: #8bfabf,
+    background: #ffffff,
+    text: #272a2c,
+    shadow: #272a2c50,
+    button-color: #ffffff,
+  ),
+  simple: (
+    primary: #6fbff5,
+    secondary: #eb7c7c,
+    background: #272a2c,
+    text: #ffffff,
+    shadow: #ffffff50,
+    button-color: #ffffff,
+  ),
+);
